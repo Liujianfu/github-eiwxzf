@@ -17,7 +17,7 @@ export default function Invoices() {
           onChange={(event) => {
             let filter = event.target.value;
             if (filter) {
-              setSearchParams({ filter });
+              setSearchParams({ filter: filter });
             } else {
               setSearchParams({});
             }
